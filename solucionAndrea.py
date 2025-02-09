@@ -3,7 +3,6 @@ def calcular_area(base, altura):
     return base * altura
 
 def calcular_perimetro(base, altura):
-    """Calcula el perímetro de un rectángulo."""
     return 2 * (base + altura)
 
 # Definir dimensiones del rectángulo
