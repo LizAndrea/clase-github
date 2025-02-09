@@ -22,3 +22,7 @@ def get_superheroes():
     return rows
 
 #Crear endpoints con su nombre y que contiene (enfocado a el taller)
+@app.get("/douglasTaller")
+def get_superheroes():
+    rows = ["Programacion", "Api", "Base de datos", "SOLID", "Postgres"]
+    return rows
