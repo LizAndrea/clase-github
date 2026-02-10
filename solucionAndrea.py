@@ -14,5 +14,5 @@ altura = 5
 area = calcular_area(base, altura)
 perimetro = calcular_perimetro(base, altura)
 
-print(f"Área: {area}")
-print(f"Perímetro: {perimetro}")
+print(f"el Área es: {area}")
+print(f"el Perímetro es: {perimetro}")
