@@ -14,7 +14,7 @@ def get_familia():
 
 @app.get("/taller")
 def get_superheroes():
-    rows = ["Desarrollo", "FastAPi", "control de versiones", "refactorizacion", "SOLID ", "GIT", "inteligencia Artifical"]
+    rows = ["Ironman", "Batman", "Jocker", "spiderman", "antman ", "thor", "lucky"]
     return rows
 
 #Crear endpoints con su nombre y que contiene (enfocado a el taller)
