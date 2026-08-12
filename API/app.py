@@ -18,3 +18,13 @@ def get_superheroes():
     return rows
 
 #Crear endpoints con su nombre y que contiene (enfocado a el taller)
+
+@app.get("/conexion_microservicios_backend")
+def get_conexion_microservicios_backend():
+    rows = ["Eureka", "Zuul", "Spring Cloud Config", "Hystrix", "Ribbon"]
+    return rows
+
+@app.get("/elnar")
+def get_lenguajes_backend():
+    rows = ["Python", "Java", "C#", "Node.js", "Ruby"]
+    return rows
