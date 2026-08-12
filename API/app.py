@@ -18,3 +18,8 @@ def get_superheroes():
     return rows
 
 #Crear endpoints con su nombre y que contiene (enfocado a el taller)
+
+@app.get("/carlos")
+def get_estructuras_datos():
+    rows = ["Pilas", "Colas", "Array", "Mapas", "Diccionario", "Arboles", "Grafos"]
+    return rows
