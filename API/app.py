@@ -21,5 +21,5 @@ def get_superheroes():
 
 @app.get("/carlos")
 def get_estructuras_datos():
-    rows = ["Pilas", "Colas", "Array", "Mapas", "Diccionario", "Arboles", "Grafos"]
+    rows = ["Pilas", "Colas", "Array", "Mapas", "Diccionario", "Arboles", "Grafos", "Tuplas"]
     return rows
