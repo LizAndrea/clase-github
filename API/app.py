@@ -19,6 +19,11 @@ def get_superheroes():
 
 #Crear endpoints con su nombre y que contiene (enfocado a el taller)
 
+<<<<<<< HEAD
+@app.get("/giancarla")
+def get_pilares_POO():
+    rows = ["herencia", "abstracción", "Encapsulamiento", "polimorfismo"]
+=======
 @app.get("/conexion_microservicios_backend")
 def get_conexion_microservicios_backend():
     rows = ["Eureka", "Zuul", "Spring Cloud Config", "Hystrix", "Ribbon"]
@@ -32,4 +37,5 @@ def get_lenguajes_backend():
 @app.get("/andrea")
 def get_lenguajes_backend():
     rows = ["Python", "Java", "C#", "Node.js", "Ruby"]
+>>>>>>> 53a9e2c8a28e9ad81fc233f77bb55078776f4426
     return rows
