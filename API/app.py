@@ -29,7 +29,7 @@ def get_lenguajes_backend():
     rows = ["Python", "Java", "C#", "Node.js", "Ruby"]
     return rows
 
-@app.get("/liz")
+@app.get("/andrea")
 def get_lenguajes_backend():
     rows = ["Python", "Java", "C#", "Node.js", "Ruby"]
     return rows
