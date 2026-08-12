@@ -17,4 +17,9 @@ def get_superheroes():
     rows = ["Ironman", "Batman", "Jocker", "spiderman", "antman ", "thor", "lucky"]
     return rows
 
+@app.get("/graciela")
+def get_estructuras():
+    rows = ["Polimorfismo", "encapsuamiento", "abstraccion", "herencia"]
+    return rows
+
 #Crear endpoints con su nombre y que contiene (enfocado a el taller)
