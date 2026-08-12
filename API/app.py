@@ -28,3 +28,8 @@ def get_conexion_microservicios_backend():
 def get_lenguajes_backend():
     rows = ["Python", "Java", "C#", "Node.js", "Ruby"]
     return rows
+
+@app.get("/liz")
+def get_lenguajes_backend():
+    rows = ["Python", "Java", "C#", "Node.js", "Ruby"]
+    return rows
