@@ -18,3 +18,7 @@ def get_superheroes():
     return rows
 
 #Crear endpoints con su nombre y que contiene (enfocado a el taller)
+@app.get("/herbert")
+def get_peter_poker():
+    estructuras_de_datos = ["Pilas", "Colas", "Listas", "Árboles", "Grafos"]
+    return {"nombre": "Peter Poker", "alterEgo": "Spider-Ham", "Estructuras de datos": estructuras_de_datos}
