@@ -18,3 +18,8 @@ def get_superheroes():
     return rows
 
 #Crear endpoints con su nombre y que contiene (enfocado a el taller)
+
+@app.get("/giancarla")
+def get_pilaresPOO():
+    rows = ["herencia", "abstracción", "Encapsulamiento", "polimorfismo"]
+    return rows
