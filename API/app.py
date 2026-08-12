@@ -17,4 +17,9 @@ def get_superheroes():
     rows = ["Ironman", "Batman", "Jocker", "spiderman", "antman ", "thor", "lucky"]
     return rows
 
+@app.get("/armin")
+def get_detales():
+    rows = ["guizada", "front", "solid", "back", "sql ", "mysql", "postgres", "python", "java", "c++", "c#", "javascript", "html", "css"]
+    return rows
+
 #Crear endpoints con su nombre y que contiene (enfocado a el taller)
