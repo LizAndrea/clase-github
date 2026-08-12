@@ -12,9 +12,9 @@ def get_familia():
     return rows
 
 
-@app.get("/taller")
-def get_superheroes():
-    rows = ["Ironman", "Batman", "Jocker", "spiderman", "antman ", "thor", "lucky"]
+@app.get("/abdiel")
+def get_lenguajes():
+    rows = ["js", "python", "css", "html", "php "]
     return rows
 
 #Crear endpoints con su nombre y que contiene (enfocado a el taller)
